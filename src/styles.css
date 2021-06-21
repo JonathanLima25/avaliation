@@ -7,13 +7,13 @@
     display: block;
 }
 .barra-vertical2 {
-    
     float: left;
     margin-left: 0px;
     background-color: rgb(54, 99, 93);
     padding-bottom: 100%;
     width: 3rem;
     display: inline-flexbox;
+    visibility: hidden;
 }
 .barra-vertical2 button:first-child {
     margin-top: 2rem;
@@ -24,12 +24,11 @@
     background-color: rgb(110, 139, 135);
     width: 100%;
     height: 3rem;
-
 }
 
 button{
     background-color: rgb(196, 192, 192);
-    margin: 1rem 0.5rem 1rem 0.5rem;  
+    margin: 1rem 0.5rem 1rem 0.5rem;
 }
 
 .barra-vertical button:hover {
@@ -41,10 +40,52 @@ button{
 }
 
 img {
-   width: 1rem; 
+   width: 1rem;
    height: 1rem;
    opacity: 1;
    display: block;
    transition: .5s;
-   
 }
+
+.seletor {
+  float: left;
+  margin-left: 0px;
+  padding-bottom: 100%;
+  width: 12rem;
+  display: inline-flexbox;
+}
+
+select {
+  margin: 1rem;
+  padding: 0.2rem 0.5rem 0.2rem 2rem;
+}
+
+.barra-horizontal2 {
+  float: top;
+  margin-left: 0px;
+  background-color: rgb(207, 233, 229);
+  width: 100%;
+  height: 3rem;
+}
+
+.barra-horizontal2 button {
+  float: right;
+  margin-top: 1rem;
+  padding: 5px 10px;
+}
+
+.barra-horizontal2 button:hover {
+  background-color: azure;
+}
+
+.main {
+  visibility: hidden;
+}
+
+#joaoDesc, #eduDesc, #joseDesc {
+  position: relative;
+  visibility: hidden;
+}
+
+
+
