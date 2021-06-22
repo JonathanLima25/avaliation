@@ -29,6 +29,7 @@
 button{
     background-color: rgb(196, 192, 192);
     margin: 1rem 0.5rem 1rem 0.5rem;
+    padding: 0.25rem;
 }
 
 .barra-vertical button:hover {
@@ -70,8 +71,8 @@ select {
 
 .barra-horizontal2 button {
   float: right;
-  margin-top: 1rem;
-  padding: 5px 10px;
+  margin: 0.5rem 0.2rem;
+  padding: 5px 20px;
 }
 
 .barra-horizontal2 button:hover {
@@ -87,5 +88,7 @@ select {
   visibility: hidden;
 }
 
-
+.descricao {
+  text-align: center;
+}
 

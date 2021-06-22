@@ -60,15 +60,6 @@ export class AppComponent {
 
   onExit(event: Event): void {
     window.location.reload();
-    // this.clearScreen()
-    // if(this.visible){
-    //   (document.getElementById("hBar") as HTMLElement).style.visibility = "hidden";
-    //   (document.getElementById("vBar") as HTMLElement).style.visibility = "hidden";
-    // }
-
-    // this.visible = !this.visible;
-    // let elementId: string = (event.currentTarget as Element).id || "";
-    // this.onChangeColor(elementId);
   }
 
   selectChangeHandler (event: any) {
@@ -81,11 +72,6 @@ export class AppComponent {
     this.visible = true;
     this.visiblehBar = false;
     this.visiblevBar = false;
-
-    // this.onChangeColor("btnMenu1");
-    // this.onChangeColor("btnMenu2");
-    // this.onChangeColor("btnMenu3");
-    // this.onChangeColor("btnMenu4");
   }
 
   title = 'avaliation';
